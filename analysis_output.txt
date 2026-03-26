@@ -1,0 +1,25 @@
+Analyzing flu...                                                
+
+  error • The argument type 'CardTheme' can't be assigned to the parameter type 'CardThemeData?'.  • lib/core/theme/app_theme.dart:18:18 • argument_type_not_assignable
+  error • The argument type 'CardTheme' can't be assigned to the parameter type 'CardThemeData?'.  • lib/core/theme/app_theme.dart:53:18 • argument_type_not_assignable
+  error • Target of URI doesn't exist: '../../core/constants/app_strings.dart' • lib/features/home/screens/home_screen.dart:4:8 • uri_does_not_exist
+  error • The imported library '../../progress/providers/progress_provider.g.dart' can't have a part-of directive • lib/features/home/screens/home_screen.dart:8:8 • import_of_non_library
+  error • Undefined name 'progressNotifierProvider' • lib/features/home/screens/home_screen.dart:16:30 • undefined_identifier
+  error • Invalid constant value • lib/features/home/screens/home_screen.dart:22:40 • invalid_constant
+  error • Undefined name 'AppStrings' • lib/features/home/screens/home_screen.dart:22:40 • undefined_identifier
+  error • Target of URI doesn't exist: '../../core/constants/app_strings.dart' • lib/features/home/widgets/streak_card.dart:2:8 • uri_does_not_exist
+  error • Target of URI doesn't exist: '../../core/constants/app_colors.dart' • lib/features/home/widgets/streak_card.dart:3:8 • uri_does_not_exist
+  error • Undefined name 'AppStrings' • lib/features/home/widgets/streak_card.dart:22:22 • undefined_identifier
+  error • Undefined name 'AppColors' • lib/features/home/widgets/streak_card.dart:23:133 • undefined_identifier
+  error • Target of URI doesn't exist: '../../shared/widgets/loading_widget.dart' • lib/features/library/screens/library_screen.dart:5:8 • uri_does_not_exist
+  error • Target of URI doesn't exist: '../../shared/widgets/error_widget.dart' • lib/features/library/screens/library_screen.dart:6:8 • uri_does_not_exist
+  error • The name 'LoadingWidget' isn't a class • lib/features/library/screens/library_screen.dart:97:38 • creation_with_non_type
+  error • The method 'ErrorWidgetFit' isn't defined for the type '_LibraryScreenState' • lib/features/library/screens/library_screen.dart:98:40 • undefined_method
+   info • The imported package 'hive' isn't a dependency of the importing package • lib/features/log/models/workout_entry.dart:1:8 • depend_on_referenced_packages
+  error • Undefined name 'DismissHorizontalDirection' • lib/features/log/widgets/exercise_tile.dart:14:18 • undefined_identifier
+warning • Unused import: '../widgets/weekly_chart.dart' • lib/features/progress/providers/progress_provider.dart:2:8 • unused_import
+   info • The imported package 'timezone' isn't a dependency of the importing package • lib/shared/services/notification_service.dart:3:8 • depend_on_referenced_packages
+   info • The imported package 'timezone' isn't a dependency of the importing package • lib/shared/services/notification_service.dart:4:8 • depend_on_referenced_packages
+  error • The name 'MyApp' isn't a class • test/widget_test.dart:16:35 • creation_with_non_type
+
+21 issues found. (ran in 8.3s)
